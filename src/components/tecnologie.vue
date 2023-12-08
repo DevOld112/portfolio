@@ -7,7 +7,7 @@ const { props } = defineProps(['tecnologie']);
 <template>
     <div class="circular-motion circular-motion:hover">
         <img
-        :src="`../src/public/tecnologies/${tecnologie.name}.svg`" 
+        :src="`../public/tecnologies/${tecnologie.name}.svg`" 
         :alt="tecnologie.name"
         />
         

@@ -21,11 +21,10 @@
 
         <img
         class=" mb-3 rounded-lg"
-        :src="'../../src/public/cursos/' + curso.logo + '.png'"
+        :src="'/cursos/' + curso.logo + '.png'"
         :alt="'Curso'+ ' ' + curso.plataforma"
         style="max-width: 100%; width: 16vw; height: auto; display: block;"
         >
-
     </div>
 
 
