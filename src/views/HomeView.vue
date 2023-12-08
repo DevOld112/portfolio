@@ -45,7 +45,7 @@ defineProps(['tecnologies']);
 
       <article data-aos="fade-right" class="order-first">
         <img
-        src="../../public/yo.png"
+        src="../../public/yo.jpg"
         class="rounded-full h-96 w-96 bg-transparent border border-sky-400 hover:border-sky-600 shadow-lg"
         alt="logo"
         >
