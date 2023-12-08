@@ -1,30 +1,20 @@
 <script setup>
-import tecnologie from '../components/tecnologie.vue';
+import Tecnologie from '../components/tecnologie.vue';
 import Certificaciones from '../components/Certificaciones.vue';
 import Educacion from '../components/Educacion.vue';
 import { certificaciones } from '../data/certificaciones.js'
 import { cursos } from '../data/cursos.js'
+import { tecnologies } from '../data/tecnologies.js'
 import { onMounted } from 'vue';
-import AOS from 'aos'
 import { RouterLink } from 'vue-router';
+import AOS from 'aos'
+
 
 onMounted(() => {
   AOS.init()
 })
 
-const tecnologies = [
-  { name: 'javascript'  },
-  { name: 'VueJs' },
-  { name: 'NodeJs'  },
-  { name: 'tailwindcss' },
-  { name: 'typescript'  },
-  { name: 'mongodb' },
-  { name:'express'  },
-  { name: 'postgresql' },
-  { name:'docker' }
-]
 
-defineProps(['tecnologies']);
 
 </script>
 
@@ -62,12 +52,9 @@ defineProps(['tecnologies']);
 
       <article data-aos="fade-down" class="flex justify-center lg:w-2/6">
         <div class="grid grid-cols-3 lg:flex gap-10 flex-wrap">
-          <tecnologie
-
+          <Tecnologie
           v-for="tecnologie in tecnologies"
-          :key="tecnologie.name"
           :tecnologie="tecnologie"
-          class="tecnologie"
           />
           
         </div>

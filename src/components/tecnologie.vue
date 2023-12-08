@@ -1,13 +1,18 @@
 <script setup>
 
-const { props } = defineProps(['tecnologie']);
+const props = defineProps({
+        tecnologie:{
+            type:Object,
+            required: true
+        }
+    })
 
 </script>
 
 <template>
     <div class="circular-motion circular-motion:hover">
-        <img
-        :src="`../public/tecnologies/${tecnologie.name}.svg`" 
+      <img
+        :src="`../../public/tecnologies/${tecnologie.name}.svg`" 
         :alt="tecnologie.name"
         />
         
