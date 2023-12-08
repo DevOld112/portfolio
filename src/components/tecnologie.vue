@@ -1,5 +1,5 @@
 <script setup>
-import javascriptIcon from '../../public/tecnologies/vuejs.svg'
+
 const { props } = defineProps(['tecnologie']);
 
 </script>
