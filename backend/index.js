@@ -18,7 +18,7 @@ dotenv.config()
 
 // 4) Configuracion de CORS
 
-const whiteList = ['http://localhost:5173', undefined]
+const whiteList = [process.env.FRONTEND_URL]
 
 const corsOption = {
     origin: function(origin, callback){
@@ -42,7 +42,7 @@ app.use('/api/email', emailRoutes)
 
 
 
-const PORT = 3000
+const PORT = process.env.PORT
 
 app.listen(PORT, () => {
     console.log(colors.green.bold(`Servidor Levantado en el puerto ${PORT}`))

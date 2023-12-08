@@ -26,7 +26,7 @@
 
         <img
         class=" mb-3 rounded-md"
-        :src="'/cursos/' + certificacion.logo + '.png'"
+        :src="'../../src/public/cursos/' + certificacion.logo + '.png'"
         :alt="'Curso'+ ' ' + certificacion.plataforma"
         style="max-width: 100%; width: 16vw; height: auto; display: block;"
         >

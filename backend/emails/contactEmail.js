@@ -2,10 +2,10 @@ import { createTransport } from '../emails/nodemailer.js'
 
 export async function sendMailForm (name, email, message){
     const transport = createTransport(
-        "sandbox.smtp.mailtrap.io",
-        2525,
-        "6ae5edb847b1b7",
-        "3165b1f1b8da93"
+        process.env.EMAIL_HOST,
+        process.env.EMAIL_PORT,
+        process.env.EMAIL_USER,
+        process.env.EMAIL_PASS
     )
 
     //Enviar el mail
