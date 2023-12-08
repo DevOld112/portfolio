@@ -6,10 +6,10 @@ const { props } = defineProps(['tecnologie']);
 
 <template>
     <div class="circular-motion circular-motion:hover">
-        <img
-        :src="'../../public/tecnologies/' + tecnologie.name + '.svg'"
-        :alt="tecnologie.name"
-        >
+        <img :src="`../public/tecnologies/${tecnologie.name}.svg`" :alt="tecnologie.name"
+        />
+        
+        
         <h3 class="text-sm font-bold italic text-center mt-2 text-white uppercase">{{ tecnologie.name }}</h3>
     </div>
 </template>
