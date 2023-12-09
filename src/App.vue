@@ -25,9 +25,9 @@ const toggleMenu = () => {
         <img
           src="../public/firefox.svg"
           alt="logo"
-          class="hover:w-16 hover:h-16 transition"
+          class="social"
         />
-        <p class="font-bold"><span class="font-extrabold italic text-xl">Front-end</span> Developer</p>
+        <p class="font-bold"><span class="font-extrabold italic text-xl">Front-End</span> Developer</p>
       </div>
 
       <button @click="toggleMenu" class="lg:hidden focus:outline-none">
@@ -95,7 +95,7 @@ const toggleMenu = () => {
 <style>
 .social:hover {
   transform: scale(1.1);
-  transition: transform 0.3s ease;
+  transition: transform 1s ease;
 }
 
 </style>
