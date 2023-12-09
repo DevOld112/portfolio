@@ -27,6 +27,7 @@ const toggleMenu = () => {
           alt="logo"
           class="hover:w-16 hover:h-16 transition"
         />
+        <p class="font-bold"><span class="font-extrabold italic text-xl">Front-end</span> Developer</p>
       </div>
 
       <button @click="toggleMenu" class="lg:hidden focus:outline-none">

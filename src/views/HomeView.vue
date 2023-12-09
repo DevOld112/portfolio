@@ -2,9 +2,11 @@
 import Tecnologie from '../components/tecnologie.vue';
 import Certificaciones from '../components/Certificaciones.vue';
 import Educacion from '../components/Educacion.vue';
+import Proyects from '../components/Proyects.vue';
 import { certificaciones } from '../data/certificaciones.js'
 import { cursos } from '../data/cursos.js'
 import { tecnologies } from '../data/tecnologies.js'
+import { projects } from '../data/projects.js';
 import { onMounted } from 'vue';
 import { RouterLink } from 'vue-router';
 import AOS from 'aos'
@@ -92,6 +94,18 @@ onMounted(() => {
         <p class="text-xl text-white font-medium mx-4">
           En mi recorrido, he fortalecido mi base técnica a través de proyectos prácticos en plataformas como FreeCodeCamp, donde obtuve certificaciones en Algoritmos de Datos y Desarrollo Backend. Estas experiencias prácticas han enriquecido mi comprensión y aplicación de conceptos clave, permitiéndome abordar desafíos complejos con confianza. Mi enfoque no solo se limita a la adquisición de conocimientos, sino también a la implementación efectiva de soluciones que contribuyen al mundo del desarrollo tecnológico de manera significativa.
         </p>
+      </article>
+    </section>
+
+    <section>
+      <h1 class="text-2xl font-bold text-center italic text-white mb-5">Mis Proyectos</h1>
+      <article data-aos="flip-right" class="grid grid-cols-1 lg:flex flex-wrap gap-5 justify-center items-stretch ">
+        <Proyects
+        v-for="project in projects"
+        :project="project"
+        class="h-full w-full"
+        />
+        
       </article>
     </section>
 
