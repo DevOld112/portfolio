@@ -2,7 +2,7 @@ import express from 'express'
 import colors from 'colors'
 import dotenv from 'dotenv'
 import cors from 'cors'
-import emailRoutes from '../backend/routes/emailRoutes.js'
+import emailRoutes from './routes/emailRoutes.js'
 
 // 1) Variable Global
 
