@@ -35,7 +35,7 @@ onMounted(() => {
 
       <article data-aos="fade-right" class="order-first">
         <img
-        
+        src="../../public/YO.svg"
         class="rounded-full h-96 w-96 bg-transparent border border-sky-400 hover:border-sky-600 shadow-lg"
         alt="logo"
         >
@@ -55,6 +55,7 @@ onMounted(() => {
           <Tecnologie
           v-for="tecnologie in tecnologies"
           :tecnologie="tecnologie"
+          class="tecnologie"
           />
           
         </div>
