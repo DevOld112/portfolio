@@ -1,29 +1,28 @@
-# version-1-0
+# 🌐 Portafolio Personal
 
-This template should help get you started developing with Vue 3 in Vite.
+¡Bienvenido a mi portafolio! Este espacio representa mi dedicación y habilidades en el desarrollo web, con un enfoque especial en la construcción de experiencias atractivas y funcionales.
 
-## Recommended IDE Setup
+## Tecnologías Destacadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Frontend:** Desarrollado con Vue.js, un framework progresivo de JavaScript que permite la creación de interfaces interactivas y eficientes.
+- **Backend:** La sección de contacto está gestionada por Node.js y Express, asegurando un proceso de comunicación eficiente y seguro.
 
-## Customize configuration
+## Aspectos Destacados
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- **Diseño Responsivo:** La experiencia del usuario es prioridad, por lo que el diseño se adapta de manera óptima a dispositivos de todos los tamaños.
+- **Interactividad Sofisticada:** Vue.js se emplea para añadir dinamismo y atractivo a las interfaces, proporcionando una navegación suave y agradable.
+- **Formulario de Contacto Seguro:** La sección de contacto utiliza Node.js y Express para manejar de manera segura los mensajes y las interacciones del usuario.
 
-## Project Setup
+## Explora mi Trabajo
 
-```sh
-npm install
-```
+Descubre los proyectos en los que he trabajado, desde aplicaciones web innovadoras hasta soluciones técnicas que abordan desafíos específicos. Cada proyecto refleja mi compromiso con la calidad y la creatividad en el desarrollo.
 
-### Compile and Hot-Reload for Development
+## 📬 Contacto
 
-```sh
-npm run dev
-```
+Si deseas conectarte, colaborar o simplemente tener una conversación sobre desarrollo web, estoy disponible a través del formulario de contacto en la sección correspondiente.
 
-### Compile and Minify for Production
+¡Agradezco tu visita y espero que disfrutes explorando mi portafolio!
 
-```sh
-npm run build
-```
+## Enlace de mi portafolio: https://portfolio-devold112.vercel.app/
+
+
