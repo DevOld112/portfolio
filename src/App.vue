@@ -51,7 +51,7 @@ const toggleMenu = () => {
             <RouterLink :to="{ name: 'contacto' }">Contacto</RouterLink>
           </li>
           <li class="hover:text-sky-600 transition">
-            <a href="/CV.pdf" download="CV.pdf">Descargar CV</a>
+            <a href="/CV_ACTUAL.pdf" download="CV.pdf">Descargar CV</a>
           </li>
         </ul>
       </div>

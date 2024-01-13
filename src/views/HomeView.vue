@@ -35,7 +35,7 @@ onMounted(() => {
         </div>
       </article>
 
-      <article data-aos="fade-right" class="order-first">
+      <article data-aos="fade-right" class="order-first flex justify-center mx-auto">
         <img
         src="../../public/YO.svg"
         class="rounded-full h-96 w-96 bg-transparent border border-sky-400 hover:border-sky-600 shadow-lg"
